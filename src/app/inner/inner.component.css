@@ -1,0 +1,10 @@
+.inner{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: crimson;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+}
