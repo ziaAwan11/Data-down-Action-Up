@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainContainerComponent implements OnInit {
   names = ['Riaz','Fayyaz','Zia'];
+  named:string = '';
   constructor() { }
 
   ngOnInit() {
+  }
+  eventFromOuter(passed:string){
+    this.named = passed;
   }
 
 }

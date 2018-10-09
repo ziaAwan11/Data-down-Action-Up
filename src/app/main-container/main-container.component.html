@@ -1,5 +1,6 @@
 <div class="main-container">
   <span>Main container</span>
   <div>Data: {{names}}</div>
-  <app-outer [name]="names"></app-outer>
+  <div>Recieved: {{named}}</div>
+  <app-outer [name]="names" (eventFromOuter)="eventFromOuter($event)"></app-outer>
 </div>
